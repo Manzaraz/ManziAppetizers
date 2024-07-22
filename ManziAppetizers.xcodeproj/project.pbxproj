@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		616AAB592C4EB33200360ECF /* ManziAppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB582C4EB33200360ECF /* ManziAppetizersApp.swift */; };
-		616AAB5B2C4EB33200360ECF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB5A2C4EB33200360ECF /* ContentView.swift */; };
+		616AAB5B2C4EB33200360ECF /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB5A2C4EB33200360ECF /* AppetizerTabView.swift */; };
 		616AAB5D2C4EB33400360ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616AAB5C2C4EB33400360ECF /* Assets.xcassets */; };
 		616AAB602C4EB33400360ECF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616AAB5F2C4EB33400360ECF /* Preview Assets.xcassets */; };
+		616AAB692C4EB47000360ECF /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB682C4EB47000360ECF /* AppetizerListView.swift */; };
+		616AAB6B2C4EB47B00360ECF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB6A2C4EB47B00360ECF /* AccountView.swift */; };
+		616AAB6D2C4EB48000360ECF /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB6C2C4EB48000360ECF /* OrderView.swift */; };
+		616AAB6F2C4EB9CE00360ECF /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB6E2C4EB9CE00360ECF /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		616AAB552C4EB33200360ECF /* ManziAppetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManziAppetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		616AAB582C4EB33200360ECF /* ManziAppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManziAppetizersApp.swift; sourceTree = "<group>"; };
-		616AAB5A2C4EB33200360ECF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		616AAB5A2C4EB33200360ECF /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		616AAB5C2C4EB33400360ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		616AAB5F2C4EB33400360ECF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		616AAB682C4EB47000360ECF /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		616AAB6A2C4EB47B00360ECF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		616AAB6C2C4EB48000360ECF /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		616AAB6E2C4EB9CE00360ECF /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				616AAB582C4EB33200360ECF /* ManziAppetizersApp.swift */,
-				616AAB5A2C4EB33200360ECF /* ContentView.swift */,
+				616AAB5A2C4EB33200360ECF /* AppetizerTabView.swift */,
+				616AAB682C4EB47000360ECF /* AppetizerListView.swift */,
+				616AAB6A2C4EB47B00360ECF /* AccountView.swift */,
+				616AAB6C2C4EB48000360ECF /* OrderView.swift */,
+				616AAB6E2C4EB9CE00360ECF /* Appetizer.swift */,
 				616AAB5C2C4EB33400360ECF /* Assets.xcassets */,
 				616AAB5E2C4EB33400360ECF /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				616AAB5B2C4EB33200360ECF /* ContentView.swift in Sources */,
+				616AAB6F2C4EB9CE00360ECF /* Appetizer.swift in Sources */,
+				616AAB6B2C4EB47B00360ECF /* AccountView.swift in Sources */,
+				616AAB5B2C4EB33200360ECF /* AppetizerTabView.swift in Sources */,
 				616AAB592C4EB33200360ECF /* ManziAppetizersApp.swift in Sources */,
+				616AAB692C4EB47000360ECF /* AppetizerListView.swift in Sources */,
+				616AAB6D2C4EB48000360ECF /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
