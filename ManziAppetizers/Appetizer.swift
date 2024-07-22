@@ -29,8 +29,9 @@ struct MockData {
                                            price: 9.99,
                                            imageURL: "",
                                            calories: 345,
-                                           carbs: 99,
-                                           protein: 123)
+                                           protein: 123,
+                                           carbs: 99
+    )
     
     static let appetizers = [sampleAppetizer, sampleAppetizer, sampleAppetizer, sampleAppetizer]
 }

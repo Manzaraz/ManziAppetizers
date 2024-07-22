@@ -18,6 +18,7 @@
 		616AAB712C4EF4C600360ECF /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB702C4EF4C600360ECF /* AppetizerListCell.swift */; };
 		616AAB732C4EF65300360ECF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB722C4EF65300360ECF /* NetworkManager.swift */; };
 		616AAB752C4EF74B00360ECF /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB742C4EF74B00360ECF /* APError.swift */; };
+		616AAB772C4EFE3400360ECF /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB762C4EFE3400360ECF /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		616AAB702C4EF4C600360ECF /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		616AAB722C4EF65300360ECF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		616AAB742C4EF74B00360ECF /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		616AAB762C4EFE3400360ECF /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				616AAB702C4EF4C600360ECF /* AppetizerListCell.swift */,
 				616AAB722C4EF65300360ECF /* NetworkManager.swift */,
 				616AAB742C4EF74B00360ECF /* APError.swift */,
+				616AAB762C4EFE3400360ECF /* AppetizerListViewModel.swift */,
 				616AAB5C2C4EB33400360ECF /* Assets.xcassets */,
 				616AAB5E2C4EB33400360ECF /* Preview Content */,
 			);
@@ -161,6 +164,7 @@
 				616AAB6F2C4EB9CE00360ECF /* Appetizer.swift in Sources */,
 				616AAB752C4EF74B00360ECF /* APError.swift in Sources */,
 				616AAB712C4EF4C600360ECF /* AppetizerListCell.swift in Sources */,
+				616AAB772C4EFE3400360ECF /* AppetizerListViewModel.swift in Sources */,
 				616AAB6B2C4EB47B00360ECF /* AccountView.swift in Sources */,
 				616AAB5B2C4EB33200360ECF /* AppetizerTabView.swift in Sources */,
 				616AAB732C4EF65300360ECF /* NetworkManager.swift in Sources */,
