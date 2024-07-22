@@ -14,11 +14,11 @@ struct Appetizer: Decodable, Identifiable {
     let price: Double
     let imageURL: String
     let calories: Int
-    let carbs: Int
     let protein: Int
+    let carbs: Int
 }
 
-struct AppetizerResponse {
+struct AppetizerResponse: Decodable {
     let request: [Appetizer]
 }
 

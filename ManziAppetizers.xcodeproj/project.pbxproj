@@ -16,6 +16,8 @@
 		616AAB6D2C4EB48000360ECF /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB6C2C4EB48000360ECF /* OrderView.swift */; };
 		616AAB6F2C4EB9CE00360ECF /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB6E2C4EB9CE00360ECF /* Appetizer.swift */; };
 		616AAB712C4EF4C600360ECF /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB702C4EF4C600360ECF /* AppetizerListCell.swift */; };
+		616AAB732C4EF65300360ECF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB722C4EF65300360ECF /* NetworkManager.swift */; };
+		616AAB752C4EF74B00360ECF /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB742C4EF74B00360ECF /* APError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		616AAB6C2C4EB48000360ECF /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		616AAB6E2C4EB9CE00360ECF /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		616AAB702C4EF4C600360ECF /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		616AAB722C4EF65300360ECF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		616AAB742C4EF74B00360ECF /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				616AAB6C2C4EB48000360ECF /* OrderView.swift */,
 				616AAB6E2C4EB9CE00360ECF /* Appetizer.swift */,
 				616AAB702C4EF4C600360ECF /* AppetizerListCell.swift */,
+				616AAB722C4EF65300360ECF /* NetworkManager.swift */,
+				616AAB742C4EF74B00360ECF /* APError.swift */,
 				616AAB5C2C4EB33400360ECF /* Assets.xcassets */,
 				616AAB5E2C4EB33400360ECF /* Preview Content */,
 			);
@@ -153,9 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				616AAB6F2C4EB9CE00360ECF /* Appetizer.swift in Sources */,
+				616AAB752C4EF74B00360ECF /* APError.swift in Sources */,
 				616AAB712C4EF4C600360ECF /* AppetizerListCell.swift in Sources */,
 				616AAB6B2C4EB47B00360ECF /* AccountView.swift in Sources */,
 				616AAB5B2C4EB33200360ECF /* AppetizerTabView.swift in Sources */,
+				616AAB732C4EF65300360ECF /* NetworkManager.swift in Sources */,
 				616AAB592C4EB33200360ECF /* ManziAppetizersApp.swift in Sources */,
 				616AAB692C4EB47000360ECF /* AppetizerListView.swift in Sources */,
 				616AAB6D2C4EB48000360ECF /* OrderView.swift in Sources */,
