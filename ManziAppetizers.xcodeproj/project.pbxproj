@@ -21,6 +21,7 @@
 		616AAB772C4EFE3400360ECF /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB762C4EFE3400360ECF /* AppetizerListViewModel.swift */; };
 		616AAB792C4F00BF00360ECF /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB782C4F00BF00360ECF /* Alert.swift */; };
 		616AAB7B2C4F13FA00360ECF /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB7A2C4F13FA00360ECF /* LoadingView.swift */; };
+		616AAB7F2C4F2A9100360ECF /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB7E2C4F2A9100360ECF /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		616AAB762C4EFE3400360ECF /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		616AAB782C4F00BF00360ECF /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		616AAB7A2C4F13FA00360ECF /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		616AAB7E2C4F2A9100360ECF /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				616AAB762C4EFE3400360ECF /* AppetizerListViewModel.swift */,
 				616AAB782C4F00BF00360ECF /* Alert.swift */,
 				616AAB7A2C4F13FA00360ECF /* LoadingView.swift */,
+				616AAB7E2C4F2A9100360ECF /* RemoteImage.swift */,
 				616AAB5C2C4EB33400360ECF /* Assets.xcassets */,
 				616AAB5E2C4EB33400360ECF /* Preview Content */,
 			);
@@ -173,6 +176,7 @@
 				616AAB772C4EFE3400360ECF /* AppetizerListViewModel.swift in Sources */,
 				616AAB6B2C4EB47B00360ECF /* AccountView.swift in Sources */,
 				616AAB7B2C4F13FA00360ECF /* LoadingView.swift in Sources */,
+				616AAB7F2C4F2A9100360ECF /* RemoteImage.swift in Sources */,
 				616AAB5B2C4EB33200360ECF /* AppetizerTabView.swift in Sources */,
 				616AAB732C4EF65300360ECF /* NetworkManager.swift in Sources */,
 				616AAB592C4EB33200360ECF /* ManziAppetizersApp.swift in Sources */,
