@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6146CE7F2C51B05A00AF60D8 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146CE7E2C51B05900AF60D8 /* AccountViewModel.swift */; };
 		6146CE812C51B2AF00AF60D8 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146CE802C51B2AF00AF60D8 /* String+Ext.swift */; };
+		6146CE832C51CE4E00AF60D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6146CE822C51CE4E00AF60D8 /* User.swift */; };
 		616AAB592C4EB33200360ECF /* ManziAppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB582C4EB33200360ECF /* ManziAppetizersApp.swift */; };
 		616AAB5B2C4EB33200360ECF /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616AAB5A2C4EB33200360ECF /* AppetizerTabView.swift */; };
 		616AAB5D2C4EB33400360ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616AAB5C2C4EB33400360ECF /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		6146CE7E2C51B05900AF60D8 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		6146CE802C51B2AF00AF60D8 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		6146CE822C51CE4E00AF60D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		616AAB552C4EB33200360ECF /* ManziAppetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManziAppetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		616AAB582C4EB33200360ECF /* ManziAppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManziAppetizersApp.swift; sourceTree = "<group>"; };
 		616AAB5A2C4EB33200360ECF /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				616AAB6E2C4EB9CE00360ECF /* Appetizer.swift */,
+				6146CE822C51CE4E00AF60D8 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				616AAB6D2C4EB48000360ECF /* OrderView.swift in Sources */,
 				6146CE7F2C51B05A00AF60D8 /* AccountViewModel.swift in Sources */,
 				61FFF7C42C507CFD0042903E /* XDismissButton.swift in Sources */,
+				6146CE832C51CE4E00AF60D8 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
