@@ -46,6 +46,7 @@ struct AccountView: View {
         }
         .onAppear {
             viewModel.retrieveUser()
+            
         }
         .alert(item: $viewModel.alertItem) { alertItem in
             Alert(title: alertItem.title,
