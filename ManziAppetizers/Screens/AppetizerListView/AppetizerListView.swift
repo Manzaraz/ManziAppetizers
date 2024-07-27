@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AppetizerListView: View {
+struct `AppetizerListView`: View {
     
     @StateObject var viewModel = AppetizerListViewModel()
    
@@ -23,6 +23,7 @@ struct AppetizerListView: View {
                         }
                 }
                 .navigationTitle("🍟 Appetizers")
+                .listStyle(.plain)
                 .disabled(viewModel.isShowingDetail) // it disables the scroll
             }
             .onAppear {

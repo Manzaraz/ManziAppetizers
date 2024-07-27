@@ -25,9 +25,7 @@ struct AppetizerTabView: View {
                     Image(systemName: "bag")
                     Text("Order")
                 }
-        }
-        .tint(.brandPrimary)
-        
+        }       
     }
 }
 
