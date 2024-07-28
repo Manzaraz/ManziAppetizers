@@ -53,8 +53,14 @@ struct AppetizerDetailView: View {
                 order.add(appetizer)
                 isShowingDetail = false
             } label: {
-                APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
+//                APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
+                Text("$\(appetizer.price, specifier: "%.2f") - Add to Order")
             }
+//            .buttonStyle(.bordered)
+//            .tint(.brandPrimary)
+//            .controlSize(.large)
+            .modifier(StandardButtonStyle())
+//            .standardButtonStyle()
             .padding(.bottom, 30)
             
         }
